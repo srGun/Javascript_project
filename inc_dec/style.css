@@ -6,8 +6,22 @@
 }
 
 #countLabel{
-    font-size: 1.5em;
+    display: block;
+    font-size: 10em;
     text-align: center;
 	background-color: black;
     color: white;
+}
+#btncontain{
+    display: block;
+    text-align: center;
+    margin-top: .5rem;
+}
+.btn{
+    padding: 1em;
+    border: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-image: linear-gradient(red,yellow);
+    font-weight: 900;
 }
