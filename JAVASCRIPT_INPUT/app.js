@@ -5,6 +5,6 @@ document.getElementById("submit").onclick = function(){
     radious = document.getElementById("mytext").value;
     radious = Number(radious);
     areaOFcircle = PI*radious*radious;
-    document.getElementById("result").textContent = `area of circke is :${areaOFcircle}`;
+    document.getElementById("result").textContent = `area of circle is :${areaOFcircle}`;
 
 }
